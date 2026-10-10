@@ -1,0 +1,24 @@
+{
+  "tactic_names": {
+    "urgency": "False Urgency",
+    "authority_impersonation": "Authority Impersonation",
+    "false_reward": "False Reward / Cashback",
+    "loss_aversion": "Loss Aversion / Account Block",
+    "credential_phishing": "Credential Phishing (OTP/PIN)",
+    "suspicious_link": "Suspicious Web Link"
+  },
+  "tactic_descriptions": {
+    "urgency": "This message pressures you to act quickly. Scammers create artificial pressure so you act before thinking.",
+    "authority_impersonation": "This message pretends to come from a trusted authority like the RBI, a bank, or the government to make itself look official.",
+    "false_reward": "This message offers free rewards, lottery winnings, or cashback. Legitimate organizations rarely hand out free money out of the blue.",
+    "loss_aversion": "This message scares you with warnings of blocked accounts, cards, or penalty charges to make you panic and follow instructions.",
+    "credential_phishing": "This message asks for sensitive details like your OTP, UPI PIN, or bank credentials. Legitimate institutions will NEVER ask you for your PIN or OTP.",
+    "suspicious_link": "This message contains a suspicious web link. Clicking it might lead to a fake website designed to steal your credentials or install malware."
+  },
+  "explanation_templates": {
+    "scam_header": "This message has been identified as a likely scam. It displays {COUNT} manipulation tactic(s):",
+    "scam_tactic_bullet": "- **{TACTIC_NAME}**: {TACTIC_DESC} (Triggered by: \"{EVIDENCE}\")",
+    "scam_footer": "Safety Advice: Never click on any links, dial any numbers, or share any OTP/PIN from this message. Legitimate institutions will never ask you for credentials to receive money.",
+    "legit_explanation": "This message appears to be legitimate (e.g. a bank notification or OTP transaction alert). It does not show signs of manipulation tactics. Keep in mind that you should never share your OTP with anyone."
+  }
+}

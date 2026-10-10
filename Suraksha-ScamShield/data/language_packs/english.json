@@ -1,0 +1,63 @@
+{
+  "language_name": "English",
+  "romanized_words": [],
+  "tactic_templates": {
+    "urgency": {
+      "native": [
+        "Urgent! Pay within {TIME} or your account will be suspended.",
+        "Action required in {TIME}. Update your details immediately.",
+        "Your electricity connection will be disconnected tonight at 9:30 PM if bill not paid."
+      ],
+      "romanized": []
+    },
+    "authority_impersonation": {
+      "native": [
+        "This is an official warning from RBI. Respond immediately.",
+        "Message from SBI: Your KYC is expired. Update now.",
+        "Income Tax Department alert: Your refund of ₹{AMOUNT} is approved."
+      ],
+      "romanized": []
+    },
+    "false_reward": {
+      "native": [
+        "Congratulations! You won a cash reward of ₹{AMOUNT} from PhonePe.",
+        "Lucky Draw Winner! Click here to claim your reward of ₹{AMOUNT}.",
+        "Reward points worth ₹{AMOUNT} are expiring today. Redeem them now."
+      ],
+      "romanized": []
+    },
+    "loss_aversion": {
+      "native": [
+        "Alert: Unauthorized login detected on your {BANK} account. Click here to secure.",
+        "Your debit card is blocked due to security reasons. Unblock now.",
+        "Avoid extra penalty charges on your credit card. Verify details now."
+      ],
+      "romanized": []
+    },
+    "credential_phishing": {
+      "native": [
+        "Verify your identity. Share the OTP sent to your mobile number.",
+        "Enter your UPI PIN to claim this refund of ₹{AMOUNT}.",
+        "Please provide your card details and CVV to verify your transaction."
+      ],
+      "romanized": []
+    },
+    "suspicious_link": {
+      "native": [
+        "Click the link to verify: {LINK}",
+        "Visit our secure portal to resolve this issue: {LINK}",
+        "Claim your prize instantly at {LINK}"
+      ],
+      "romanized": []
+    }
+  },
+  "legit_templates": {
+    "native": [
+      "Your account no. XXXX{OTP} has been credited with ₹{AMOUNT} via UPI. Info: {BANK}.",
+      "OTP for your transaction is {OTP}. Valid for 5 minutes. Do not share this with anyone.",
+      "Dear Customer, your {BANK} credit card statement for last month is generated. Min due: ₹{AMOUNT}.",
+      "Your monthly electricity bill of ₹{AMOUNT} has been paid successfully. Thank you."
+    ],
+    "romanized": []
+  }
+}
