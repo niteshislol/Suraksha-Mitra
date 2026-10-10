@@ -59,6 +59,22 @@ Once transcribed, the AI Agent takes over:
 
 ---
 
+## 📊 Datasets & Data Processing
+
+To provide highly accurate and localized scheme recommendations, Suraksha Mitra relies on authentic government data sources. We processed and ingested multiple massive datasets into our Vector Database:
+
+### **1. Data Sources**
+* **National Schemes (MyScheme/Kaggle):** Extensively sourced from the `indian-government-schemes-2025` and `gov_myscheme_data` datasets, covering central government initiatives.
+* **State-Specific Schemes (Chhattisgarh Data):** A highly curated dataset (`chhattisgarh_schemes_canonical`) containing deep, localized data on schemes specific to the state of Chhattisgarh.
+
+### **2. Processing & Ingestion Pipeline**
+Converting raw, tabular government data into semantic vectors requires heavy processing. 
+* **Data Cleaning:** We normalized the text, mapped diverse CSV schemas into a unified format, and merged them.
+* **GPU-Accelerated Embedding:** Because embedding thousands of dense government documents with `sentence-transformers/LaBSE` is computationally expensive on a CPU, we created a Google Colab notebook (`Colab_Ingest_Chhattisgarh_API_Filled.ipynb`) to offload the heavy lifting to cloud GPUs.
+* **Vectorizing & Chunking:** The data was chunked logically, embedded, and successfully pushed to **Qdrant Cloud**, instantly making it available for ultra-fast, cross-lingual semantic search via our WhatsApp bot.
+
+---
+
 ## 🚀 Setup & Installation
 
 **1. Clone and Install Dependencies**
