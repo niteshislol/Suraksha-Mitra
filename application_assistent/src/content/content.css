@@ -1,0 +1,8 @@
+#sm-orb { position: fixed; z-index: 2147483647; right: 20px; bottom: 20px; width: 52px; height: 52px; border: 3px solid white; border-radius: 50%; background: #075e54; color: white; box-shadow: 0 3px 14px #0006; cursor: pointer; font-size: 22px; }
+#sm-panel { position: fixed; z-index: 2147483647; right: 20px; bottom: 82px; width: min(320px, calc(100vw - 40px)); padding: 14px; border: 1px solid #ccd6d5; border-radius: 10px; background: white; color: #17202a; box-shadow: 0 4px 18px #0003; font: 14px system-ui, sans-serif; }
+#sm-panel[hidden] { display: none; } #sm-status { font-weight: 600; } #sm-guidance { line-height: 1.4; } #sm-notice { color: #6b4f00; font-size: 12px; margin: 8px 0 0; }
+#sm-panel button { margin: 4px 4px 0 0; padding: 7px 9px; border: 1px solid #075e54; border-radius: 5px; background: white; color: #075e54; cursor: pointer; }
+#sm-panel button.primary { background: #075e54; color: white; } #sm-panel button:disabled { opacity: .45; cursor: not-allowed; }
+.sm-active-field { outline: 3px solid #f59e0b !important; outline-offset: 3px !important; scroll-margin: 100px; }
+@media (prefers-reduced-motion: reduce) { .sm-active-field { scroll-behavior: auto; } }
+#sm-saved { margin: 8px 0 0; font-size: 11px; color: #475467; word-break: break-all; } #sm-saved[hidden] { display: none; }

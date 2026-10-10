@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><title>Suraksha Mitra</title><link rel="stylesheet" href="popup.css"></head>
+<body>
+  <h1>Suraksha Mitra</h1>
+  <label>Language <select id="language"><option value="hi" selected>हिन्दी</option><option value="bn">বাংলা</option><option value="gu">ગુજરાતી</option><option value="pa">ਪੰਜਾਬੀ</option><option value="en">English</option></select></label>
+  <label><input id="speechEnabled" type="checkbox"> Speak guidance</label>
+  <label><input id="elevenLabsEnabled" type="checkbox"> Use ElevenLabs voice</label>
+  <label>Speech voice <select id="voiceName"><option value="">Automatic</option></select></label>
+  <label><input id="localOnly" type="checkbox"> Local-only (fallback guidance)</label>
+  <label><input id="sensitiveCaptureEnabled" type="checkbox"> Allow unmasked screenshot capture and storage</label>
+  <label>Screenshot backend URL <input id="screenshotBackendUrl" type="url" placeholder="https://your-backend.example"></label>
+  <label><input id="screenshotServerEnabled" type="checkbox"> Save crops to <code>temp\screenshots</code> (needs <code>npm start</code>)</label>
+  <label>Screenshot helper URL <input id="screenshotServerUrl" type="url" placeholder="http://127.0.0.1:8787"></label>
+  <button id="testHelper" type="button">Test screenshot helper</button>
+  <label><input id="localScreenshotStorage" type="checkbox"> Fallback: store crops in a picked folder</label>
+  <button id="chooseFolder" type="button">Choose screenshot folder</button>
+  <p id="folderStatus" role="status">No local screenshot folder selected.</p>
+  <p class="warning">Sensitive capture can include personal data, passwords, OTPs, and documents. Enable only for a backend you control.</p>
+  <label>Ollama URL <input id="ollamaUrl" type="url"></label>
+  <label>Model <input id="model" type="text"></label>
+  <button id="save">Save settings</button>
+  <button id="testAi">Test AI connection</button>
+  <button id="testVisual">Test visual AI</button>
+  <p id="status" role="status"></p>
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+{
+  "manifest_version": 3,
+  "name": "Suraksha Mitra - Form Guidance Assistant",
+  "version": "0.1.0",
+  "description": "A privacy-conscious assistant that explains online form fields without filling or submitting them.",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "tabs"
+  ],
+  "host_permissions": [
+    "<all_urls>",
+    "http://127.0.0.1/*"
+  ],
+  "background": {
+    "service_worker": "src/background/service-worker.js"
+  },
+  "action": {
+    "default_title": "Suraksha Mitra settings",
+    "default_popup": "src/ui/popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*",
+        "file:///*"
+      ],
+      "js": [
+        "src/shared/crop-geometry.js",
+        "src/content/control-adapters.js",
+        "src/content/content-script.js"
+      ],
+      "css": [
+        "src/content/content.css"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {}
+}

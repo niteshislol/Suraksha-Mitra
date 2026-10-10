@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<title>Suraksha Mitra dynamic synthetic fixture</title>
+<style>body { max-width: 560px; margin: 2rem auto; font: 16px system-ui; } label { display:block; margin: 1rem 0; }</style>
+<h1>Personal details</h1>
+<form id="dynamic-form">
+  <label for="category">Category <select id="category" required><option value="">Choose</option><option value="student">Student</option><option value="worker">Worker</option></select></label>
+  <div id="dependent"></div>
+</form>
+<script>
+  category.addEventListener("change", () => {
+    dependent.replaceChildren();
+    const label = document.createElement("label");
+    label.textContent = "Institution name ";
+    const input = document.createElement("input");
+    input.name = "institution"; input.required = true;
+    label.append(input); dependent.append(label);
+  });
+</script>

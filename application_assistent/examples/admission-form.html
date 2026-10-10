@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<title>College Admission Form 2026-27 (synthetic fixture)</title>
+<style>
+  body { margin: 0; padding: 48px 0; font: 16px system-ui, sans-serif; background: linear-gradient(135deg,#667eea,#764ba2); }
+  .card { max-width: 1125px; margin: 0 auto; background: #fff; border-radius: 18px; overflow: hidden; }
+  .head { background: #1e4480; color: #fff; text-align: center; padding: 38px 20px; }
+  .head h1 { margin: 12px 0 4px; font-size: 34px; }
+  .body { padding: 40px 50px; }
+  .section-title { font-size: 22px; font-weight: 700; color: #1e4480; padding-bottom: 10px; border-bottom: 1px solid #dde3ec; margin: 30px 0 22px; }
+  .photo-row { display: flex; gap: 24px; align-items: flex-start; }
+  .photo-box { flex: 0 0 138px; height: 160px; border: 2px dashed #b9c2d0; border-radius: 12px; display: grid; place-items: center; color: #98a2b3; font-size: 14px; text-align: center; }
+  .grow { flex: 1; }
+  .grid3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; margin-bottom: 24px; }
+  .grid2 { display: grid; grid-template-columns: 1.4fr 1fr; gap: 30px; margin-bottom: 24px; }
+  label.t, .lbl { display: block; font-weight: 600; color: #444; margin-bottom: 8px; font-size: 15px; }
+  .req { color: #e53935; }
+  input[type=text], input[type=date], input[type=file], select { width: 100%; box-sizing: border-box; padding: 14px 16px; border: 1px solid #d5dbe5; border-radius: 10px; background: #f9fafc; font-size: 17px; }
+  small.help { display: block; margin-top: 10px; color: #6b7280; font-size: 14px; }
+  .radios { display: flex; gap: 26px; padding-top: 10px; }
+  .radios label { display: flex; gap: 8px; align-items: center; }
+  .filler { height: 900px; }
+</style>
+<div class="card">
+  <div class="head"><div style="font-size:48px">🎓</div><h1>College Admission Form 2026-27</h1><div>Please fill all the required details carefully</div></div>
+  <form class="body">
+    <div class="section-title">📷 Profile Photograph</div>
+    <div class="photo-row">
+      <div class="photo-box">Passport<br>Photo</div>
+      <div class="grow">
+        <label class="t" for="photo">Upload Passport Size Photo <span class="req">*</span></label>
+        <input id="photo" type="file" accept="image/png,image/jpeg" required>
+        <small class="help">JPG / PNG format, max 500 KB, white background preferred</small>
+      </div>
+    </div>
+
+    <div class="section-title">👤 Personal Details</div>
+    <div class="grid3">
+      <div><label class="t" for="fn">First Name <span class="req">*</span></label><input id="fn" type="text" placeholder="First Name" required></div>
+      <div><label class="t" for="mn">Middle Name</label><input id="mn" type="text" placeholder="Middle Name"></div>
+      <div><label class="t" for="ln">Last Name <span class="req">*</span></label><input id="ln" type="text" placeholder="Last Name" required></div>
+    </div>
+    <div class="grid2">
+      <div><label class="t" for="dob">Date of Birth <span class="req">*</span></label><input id="dob" type="date" required></div>
+      <div>
+        <div class="lbl">Gender <span class="req">*</span></div>
+        <div class="radios">
+          <label><input type="radio" name="gender" value="m" required> Male</label>
+          <label><input type="radio" name="gender" value="f"> Female</label>
+          <label><input type="radio" name="gender" value="o"> Other</label>
+        </div>
+      </div>
+    </div>
+    <div class="grid3">
+      <div><label class="t" for="bg">Blood Group</label><select id="bg"><option value="">Select</option><option>A+</option><option>B+</option><option>O+</option></select></div>
+      <div><label class="t" for="rel">Religion</label><select id="rel"><option value="">Select</option><option>Hindu</option><option>Muslim</option><option>Christian</option></select></div>
+      <div><label class="t" for="cat">Category <span class="req">*</span></label><select id="cat" required><option value="">Select</option><option>General</option><option>OBC</option><option>SC</option><option>ST</option></select></div>
+    </div>
+    <div class="filler"></div>
+    <div class="grid2">
+      <div><label class="t" for="addr">Permanent Address <span class="req">*</span></label><input id="addr" type="text" required></div>
+      <div><label class="t" for="pin">Postal PIN Code</label><input id="pin" type="text" inputmode="numeric"></div>
+    </div>
+    <label class="lbl"><input type="checkbox" required> I declare that the information given is correct</label>
+    <button type="submit">Submit</button>
+  </form>
+</div>

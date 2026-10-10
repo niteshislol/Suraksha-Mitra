@@ -1,0 +1,10 @@
+{
+  "name": "suraksha-mitra-form-guidance",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server/screenshot-server.js",
+    "test": "node --test tests/*.test.js"
+  }
+}
