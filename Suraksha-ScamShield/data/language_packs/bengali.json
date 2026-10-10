@@ -1,0 +1,90 @@
+{
+  "language_name": "Bengali",
+  "romanized_words": ["koro", "koren", "korun", "hobe", "hoyechhe", "hoyeche", "taka", "paben", "apnar", "amader", "shathe", "kache", "dite", "din", "shigghri", "taatari", "gpay", "phonepe", "paytm"],
+  "tactic_templates": {
+    "urgency": {
+      "native": [
+        "জরুরী! {TIME} এর মধ্যে আপনার {BANK} বিদ্যুৎ বিল পরিশোধ করুন না হলে বিদ্যুৎ সংযোগ বিচ্ছিন্ন করা হবে।",
+        "শেষ সতর্কতা! {TIME} এর মধ্যে আপনার প্যান কার্ড লিঙ্ক করুন, অন্যথায় আপনার অ্যাকাউন্ট বন্ধ হয়ে যাবে।",
+        "তাড়াতাড়ি করুন! মাত্র {TIME} বাকি আছে।"
+      ],
+      "romanized": [
+        "Urgent! {TIME} er moddhe apnar {BANK} electricity bill pay na korle connection cut hoye jabe.",
+        "Last warning! {TIME} er moddhe apnar PAN card link korun na hole account block hoye jabe.",
+        "Taatari korun! Matro {TIME} baki ache."
+      ]
+    },
+    "authority_impersonation": {
+      "native": [
+        "আরবিআই (RBI) এর নতুন নিয়ম: আপনার অ্যাকাউন্ট নিরাপদ করতে এখনই {LINK} এ ক্লিক করুন।",
+        "সরকারি প্রকল্পের অধীনে আপনার জন্য ₹{AMOUNT} লোন অনুমোদন করা হয়েছে। দাবি করতে এখানে ক্লিক করুন: {LINK}",
+        "আয়কর বিভাগের সতর্কতা: আপনার ₹{AMOUNT} ফেরত পেতে এখনই লগইন করুন।"
+      ],
+      "romanized": [
+        "RBI er notun rule: Apnar account secure korte akhoni {LINK} e click korun.",
+        "Govt Yojana theke apnar jonne Rs {AMOUNT} loan pass hoyeche. Claim korar jonne link open korun: {LINK}",
+        "Income Tax Department er alert: Apnar Rs {AMOUNT} refund check korte login korun."
+      ]
+    },
+    "false_reward": {
+      "native": [
+        "অভিনন্দন! আপনি PhonePe থেকে ₹{AMOUNT} ক্যাশব্যাক জিতেছেন। এখনই আপনার ব্যাংক অ্যাকাউন্টে ট্রান্সফার করুন।",
+        "লাকি ড্র বিজয়ী! আপনার নম্বরটি ₹{AMOUNT} পুরস্কার জিতেছে। যোগাযোগ করুন: {PHONE}",
+        "প্রিয় গ্রাহক, আপনার ₹{AMOUNT} মূল্যের রিওয়ার্ড পয়েন্ট আজ শেষ হয়ে যাচ্ছে। এখনই সংগ্রহ করুন: {LINK}"
+      ],
+      "romanized": [
+        "Congratulations! Apni PhonePe theke Rs {AMOUNT} cashback jitechen. Akhoni bank account e transfer korun.",
+        "Lucky Draw Winner! Apnar number Rs {AMOUNT} prize jiteche. Claim korte contact korun: {PHONE}",
+        "Dear customer, apnar Rs {AMOUNT} reward points aaj expire hoye jabe. Akhoni redeem korun: {LINK}"
+      ]
+    },
+    "loss_aversion": {
+      "native": [
+        "সতর্কতা! আপনার {BANK} অ্যাকাউন্টে সন্দেহজনক লেনদেন দেখা গেছে। ব্লক হওয়া এড়াতে এখানে ক্লিক করুন: {LINK}",
+        "নিরাপত্তাজনিত কারণে আপনার এটিএম (ATM) কার্ডটি ব্লক করা হয়েছে। আনব্লক করতে এখানে ক্লিক করুন: {LINK}",
+        "জরিমানা এড়ান! আপনার ক্রেডিট কার্ডের বিল এখনই যাচাই করুন।"
+      ],
+      "romanized": [
+        "Warning! Apnar {BANK} account e suspicious activity paoya geche. Block howa theke bachate click korun: {LINK}",
+        "Apnar ATM card safety karone block kora hoyeche. Unblock korte link click korun: {LINK}",
+        "Penalty avoid korun! Apnar credit card bill akhoni verify korun."
+      ]
+    },
+    "credential_phishing": {
+      "native": [
+        "আপনার ব্যাংক অ্যাকাউন্ট সচল করতে আপনার ইউপিআই পিন (UPI PIN) লিখুন: {LINK}",
+        "টাকা পেতে আপনার ইউপিআই পিন দিয়ে এগিয়ে যান।",
+        "লেনদেন নিশ্চিত করতে অবিলম্বে আপনার মোবাইলে পাঠানো ওটিপি (OTP) শেয়ার করুন।"
+      ],
+      "romanized": [
+        "Apnar bank account active korte apnar UPI PIN enter korun: {LINK}",
+        "Taka receive korte apnar UPI PIN enter kore proceed korun.",
+        "Transaction block na korte apnar OTP taatari share korun."
+      ]
+    },
+    "suspicious_link": {
+      "native": [
+        "এই লিঙ্কে ক্লিক করুন: {LINK}",
+        "সাহায্যের জন্য আমাদের ওয়েবসাইটে যান: {LINK}",
+        "আপনার পুরস্কারের লিঙ্ক এখানে আছে: {LINK}"
+      ],
+      "romanized": [
+        "Ei link e click korun: {LINK}",
+        "Help er jonno amader website e jan: {LINK}",
+        "Apnar prize er link ekhane ache: {LINK}"
+      ]
+    }
+  },
+  "legit_templates": {
+    "native": [
+      "আপনার {BANK} অ্যাকাউন্ট XXXX{OTP} এ ₹{AMOUNT} জমা করা হয়েছে।",
+      "লগইন করার জন্য আপনার ওয়ান-টাইম পাসওয়ার্ড (OTP) হল {OTP}। এটি কারও সাথে শেয়ার করবেন না।",
+      "প্রিয় গ্রাহক, আপনার {BANK} ক্রেডিট কার্ডের বিল ₹{AMOUNT} প্রস্তুত। পরিশোধের শেষ তারিখ: {TIME}।"
+    ],
+    "romanized": [
+      "Apnar {BANK} account XXXX{OTP} e Rs {AMOUNT} credit hoyeche.",
+      "Login er jonno apnar OTP holo {OTP}. Eti karo shathe share korben na.",
+      "Dear Customer, apnar {BANK} credit card bill Rs {AMOUNT} ready hoyeche. Due date: {TIME}."
+    ]
+  }
+}

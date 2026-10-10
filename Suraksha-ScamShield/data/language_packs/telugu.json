@@ -1,0 +1,90 @@
+{
+  "language_name": "Telugu",
+  "romanized_words": ["cheyyandi", "cheyandi", "chesaru", "chesuko", "ledu", "undhi", "vundi", "pampandi", "dabbu", "dabbulu", "ravalante", "kavali", "chuskondi", "avuthundi", "avtundi", "ledhandi", "gpay", "phonepe", "paytm"],
+  "tactic_templates": {
+    "urgency": {
+      "native": [
+        "త్వరపడండి! {TIME} లోపు మీ {BANK} కరెంట్ బిల్లు చెల్లించకపోతే కరెంట్ కట్ అవుతుంది.",
+        "చివరి హెచ్చరిక! {TIME} లోపు మీ పాన్ కార్డ్ లింక్ చేయండి, లేకపోతే మీ ఖాతా నిలిపివేయబడుతుంది.",
+        "వెంటనే చెల్లించండి! కేవలం {TIME} మాత్రమే సమయం ఉంది."
+      ],
+      "romanized": [
+        "Twarapadandi! {TIME} lopala mee {BANK} current bill pay cheyakapothe power cut avtundhi.",
+        "Chivari warning! {TIME} lopala mee PAN card link cheyandi, lekapothe account close chestaru.",
+        "Ventane pay cheyyandi! Kevalam {TIME} mathrame time undhi."
+      ]
+    },
+    "authority_impersonation": {
+      "native": [
+        "ఆర్బీఐ (RBI) కొత్త నియమం: మీ బ్యాంక్ ఖాతాను సురక్షితం చేయడానికి వెంటనే {LINK} పై క్లిక్ చేయండి.",
+        "ప్రభుత్వ పథకం కింద మీకు ₹{AMOUNT} లోన్ మంజూరైంది. క్లెయిమ్ చేయడానికి ఇక్కడ క్లిక్ చేయండి: {LINK}",
+        "ఆదాయపు పన్ను శాఖ హెచ్చరిక: మీ ₹{AMOUNT} రీఫండ్ పొందడానికి లాగిన్ అవ్వండి."
+      ],
+      "romanized": [
+        "RBI kotha rule: Mee account safe cheyataniki ventane {LINK} open cheyyandi.",
+        "Govt Scheme dwara meeku Rs {AMOUNT} loan vachindi. Claim cheyataniki link open cheyandi: {LINK}",
+        "Income Tax Department alert: Mee Rs {AMOUNT} refund chuskovataniki ventane login avvandi."
+      ]
+    },
+    "false_reward": {
+      "native": [
+        "అభినందనలు! PhonePe నుండి మీరు ₹{AMOUNT} క్యాష్‌బ్యాక్ గెలుచుకున్నారు. వెంటనే మీ బ్యాంక్ ఖాతాకు బదిలీ చేయండి.",
+        "లక్కీ డ్రా విజేత! మీ మొబైల్ నంబర్ ₹{AMOUNT} బహుమతిని గెలుచుకుంది. సంప్రదించండి: {PHONE}",
+        "ప్రియమైన కస్టమర్, మీ ₹{AMOUNT} విలువైన రివార్డ్ పాయింట్లు ఈరోజే గడువు ముగుస్తాయి. వెంటనే క్లెయిమ్ చేయండి: {LINK}"
+      ],
+      "romanized": [
+        "Congratulations! Mee PhonePe nundi Rs {AMOUNT} cashback vachindi. Ventane bank account-ki transfer cheyyandi.",
+        "Lucky Draw Winner! Mee mobile number Rs {AMOUNT} prize win ayyindi. Claim cheyyataniki contact cheyyandi: {PHONE}",
+        "Dear customer, mee Rs {AMOUNT} reward points eeroje expire avthunnayi. Udanae redeem cheskondi: {LINK}"
+      ]
+    },
+    "loss_aversion": {
+      "native": [
+        "హెచ్చరిక! మీ {BANK} ఖాతాలో అనుమానాస్పద లావాదేవీ జరిగింది. బ్లాక్ కాకుండా ఉండటానికి ఇక్కడ క్లిక్ చేయండి: {LINK}",
+        "భద్రతా కారణాల వల్ల మీ ఏటియం (ATM) కార్డ్ బ్లాక్ చేయబడింది. అన్‌బ్లాక్ చేయడానికి ఇక్కడ క్లిక్ చేయండి: {LINK}",
+        "పెనాల్టీ చార్జీలను నివారించండి! మీ క్రెడిట్ కార్డ్ బిల్లును వెంటనే ధృవీకరించండి."
+      ],
+      "romanized": [
+        "Warning! Mee {BANK} account lo suspicious transaction jarigindi. Block avvakunda undataniki click cheyyandi: {LINK}",
+        "Mee ATM card block chesaru safety reasons valla. Unblock cheyyataniki link click cheyyandi: {LINK}",
+        "Penalty charges nundi thappinchukondi! Mee credit card bill ventane verify cheskondi."
+      ]
+    },
+    "credential_phishing": {
+      "native": [
+        "మీ బ్యాంక్ ఖాతాను తిరిగి ప్రారంభించడానికి మీ యూపీఐ పిన్ (UPI PIN) నమోదు చేయండి: {LINK}",
+        "డబ్బులు పొందడానికి మీ యూపీఐ పిన్ నమోదు చేసి ముందుకు సాగండి.",
+        "లావాదేవీని నిర్ధారించడానికి మీ మొబైల్‌కు వచ్చిన ఓటీపీని (OTP) వెంటనే షేర్ చేయండి."
+      ],
+      "romanized": [
+        "Mee bank account active cheskotaniki mee UPI PIN enter cheyyandi: {LINK}",
+        "Dabbulu receive cheskotaniki mee UPI PIN enter chesi proceed avvandi.",
+        "Transaction verify chesi block avvakunda chuskovataniki ventane OTP share cheyyandi."
+      ]
+    },
+    "suspicious_link": {
+      "native": [
+        "ఈ లింక్‌ను క్లిక్ చేయండి: {LINK}",
+        "సహాయం కోసం మా వెబ్‌సైట్‌ను సందర్శించండి: {LINK}",
+        "మీ బహుమతి కోసం లింక్ ఇక్కడే ఉంది: {LINK}"
+      ],
+      "romanized": [
+        "Eee link click cheyyandi: {LINK}",
+        "Help kosam ma website chudandi: {LINK}",
+        "Mee prize link idigo: {LINK}"
+      ]
+    }
+  },
+  "legit_templates": {
+    "native": [
+      "మీ {BANK} ఖాతా XXXX{OTP} లో ₹{AMOUNT} జమ చేయబడింది.",
+      "లాగిన్ కోసం మీ వన్-టైమ్ పాస్‌వర్డ్ (OTP) {OTP}. దీనిని ఎవరితోనూ పంచుకోవద్దు.",
+      "ప్రియమైన కస్టమర్, మీ {BANK} క్రెడిట్ కార్డ్ బిల్లు ₹{AMOUNT} సిద్ధంగా ఉంది. చెల్లింపు గడువు తేదీ: {TIME}."
+    ],
+    "romanized": [
+      "Mee {BANK} account XXXX{OTP} lo Rs {AMOUNT} credit chesaru.",
+      "Login kosam mee OTP {OTP}. Ithi evaritho share cheyodhu.",
+      "Dear Customer, mee {BANK} credit card bill Rs {AMOUNT} ready ga undhi. Due date: {TIME}."
+    ]
+  }
+}
