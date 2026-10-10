@@ -1,0 +1,50 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Project specific data files (prevent pushing large files to Git)
+*.csv
+*.jsonl
+gov_myscheme_data.json
+
+# Exception: Keep these specific CSVs as proof of training datasets
+!gov_myscheme_data.csv
+!Chhattisgarh Data/chhattisgarh_schemes_canonical_asof_2026-09-30.csv
+!indian-government-schemes-2025/Schemes.csv
+
+# Ignore large/raw data folders entirely
+data/
+reports/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Project specific scripts
+whatsapp_gateway.py  # Central Gateway (remove if you want it tracked)
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VS Code / IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# OS specific
+Thumbs.db

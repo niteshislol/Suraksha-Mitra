@@ -1,0 +1,57 @@
+{
+  "csv": "/mnt/data/chhattisgarh_schemes_canonical_asof_2026-09-30.csv",
+  "rows": 616,
+  "columns": 39,
+  "state_rows": 82,
+  "central_rows": 534,
+  "status_counts": {
+    "budget_only": 2,
+    "official_source_rules_pending": 12,
+    "legacy_phase_candidate": 4,
+    "programme_not_individual_entitlement": 9,
+    "unverified_seed": 578,
+    "official_source_application_window_pending": 2,
+    "seasonal_rules_pending": 5,
+    "official_source_state_implementation_pending": 2,
+    "superseded": 1,
+    "official_source_beneficiary_rules_pending": 1
+  },
+  "record_type_counts": {
+    "budgeted_programme": 1,
+    "food_distribution_scheme_candidate": 6,
+    "legacy_phase_candidate": 3,
+    "programme_not_individual_cash_scheme": 4,
+    "public_development_programme": 1,
+    "scheme_candidate": 588,
+    "student_admission_scheme": 2,
+    "competitive_exam_training_candidate": 1,
+    "scholarship_application_channel_candidate": 1,
+    "student_admission_service": 1,
+    "citizen_housing_assistance_candidate": 1,
+    "citizen_housing_assistance_scheme": 1,
+    "health_assurance_scheme": 1,
+    "historical_superseded_scheme": 1,
+    "nutrition_distribution_programme": 1,
+    "public_infrastructure_programme": 1,
+    "public_service_programme": 1,
+    "seasonal_citizen_scheme": 1
+  },
+  "rows_with_source_provenance_json_valid": 616,
+  "unique_scheme_ids": 616,
+  "current_verified_active_count": 0,
+  "review_queue_rows": 616,
+  "review_priority_counts": {
+    "P0": 100,
+    "P1": 507,
+    "P2": 9
+  },
+  "source_register_rows": 1093,
+  "source_register_unique_scheme_url_pairs": 1093,
+  "files": {
+    "/mnt/data/chhattisgarh_schemes_canonical_asof_2026-09-30.csv": 5687298,
+    "/mnt/data/chhattisgarh_schemes_review_queue.csv": 785771,
+    "/mnt/data/chhattisgarh_schemes_source_register.csv": 459738,
+    "/mnt/data/chhattisgarh_schemes_implementation_plan.md": 33431,
+    "/mnt/data/chhattisgarh_schemes_dataset_README.md": 3320
+  }
+}
