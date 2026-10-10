@@ -1,0 +1,90 @@
+{
+  "language_name": "Hindi",
+  "romanized_words": ["karo", "karein", "kijiye", "bhejo", "apka", "aapka", "khata", "paise", "milega", "hoga", "gaya", "sath", "nahi", "jaldi", "karna", "liye", "gpay", "phonepe", "paytm"],
+  "tactic_templates": {
+    "urgency": {
+      "native": [
+        "जल्दी करें! आपका {BANK} बिजली बिल का भुगतान {TIME} के भीतर करें वरना आज रात बिजली कट जाएगी।",
+        "अंतिम चेतावनी! {TIME} में अपना पैन कार्ड लिंक करें अन्यथा आपका खाता निष्क्रिय हो जाएगा।",
+        "तुरंत भुगतान करें! केवल {TIME} बचे हैं।"
+      ],
+      "romanized": [
+        "Jaldi karein! Apna {BANK} electricity bill {TIME} ke andar pay karein nahi to aaj raat light cut jayegi.",
+        "Last warning! {TIME} me apna PAN card link karein nahi to account close ho jayega.",
+        "Turent pay karein! Sirf {TIME} bache hain."
+      ]
+    },
+    "authority_impersonation": {
+      "native": [
+        "आरबीआई (RBI) की नई गाइडलाइन: अपने खाते को सुरक्षित करने के लिए तुरंत {LINK} पर जाएं।",
+        "सरकारी योजना के तहत आपको ₹{AMOUNT} का ऋण स्वीकृत किया गया है। यहाँ दावा करें: {LINK}",
+        "आयकर विभाग (Income Tax) का अलर्ट: आपका ₹{AMOUNT} का रिफंड वापस पाने के लिए लॉगिन करें।"
+      ],
+      "romanized": [
+        "RBI ka naya niyam: Apne account ko secure karne ke liye abhi {LINK} par click karein.",
+        "Govt Yojana ke tehat aapko Rs {AMOUNT} ka loan mil raha hai. Claim karne ke liye click karein: {LINK}",
+        "Income Tax Department ka alert: Aapka Rs {AMOUNT} ka refund check karne ke liye login karein."
+      ]
+    },
+    "false_reward": {
+      "native": [
+        "बधाई हो! आपने PhonePe की तरफ से ₹{AMOUNT} का कैशबैक जीता है। अभी अपने बैंक में ट्रांसफर करें।",
+        "लकी ड्रा विजेता! आपके नंबर ने ₹{AMOUNT} का इनाम जीता है। दावा करने के लिए संपर्क करें: {PHONE}",
+        "प्रिय ग्राहक, आपके ₹{AMOUNT} मूल्य के रिवॉर्ड पॉइंट आज समाप्त हो रहे हैं। इन्हें अभी रिडीम करें: {LINK}"
+      ],
+      "romanized": [
+        "Badhai ho! Aapne PhonePe ki taraf se Rs {AMOUNT} ka cashback jeeta hai. Abhi bank me transfer karein.",
+        "Lucky Draw Winner! Aapke number ne Rs {AMOUNT} ka prize jeeta hai. Claim karne ke liye contact karein: {PHONE}",
+        "Dear customer, aapke Rs {AMOUNT} ke reward points aaj expire ho rahe hain. Abhi redeem karein: {LINK}"
+      ]
+    },
+    "loss_aversion": {
+      "native": [
+        "सावधान! आपके {BANK} खाते में संदिग्ध गतिविधि देखी गई है। इसे ब्लॉक होने से बचाने के लिए अभी क्लिक करें: {LINK}",
+        "आपका एटीएम कार्ड सुरक्षा कारणों से ब्लॉक कर दिया गया है। चालू करने के लिए यहाँ क्लिक करें: {LINK}",
+        "पेनल्टी चार्ज से बचें! अपने क्रेडिट कार्ड बिल का तुरंत सत्यापन करें।"
+      ],
+      "romanized": [
+        "Warning! Aapke {BANK} account me suspicious activity mili hai. Block hone se bachane ke liye click karein: {LINK}",
+        "Aapka ATM card block ho gaya hai. Unblock karne ke liye link open karein: {LINK}",
+        "Penalty charge se bachein! Apne credit card bill ka abhi verification karein."
+      ]
+    },
+    "credential_phishing": {
+      "native": [
+        "अपना बैंक खाता पुनः सक्रिय करने के लिए अपना यूपीआई पिन (UPI PIN) दर्ज करें: {LINK}",
+        "पैसे प्राप्त करने के लिए अपना यूपीआई पिन डालें और आगे बढ़ें।",
+        "अपुष्ट लेनदेन को रोकने के लिए तुरंत प्राप्त हुआ ओटीपी (OTP) साझा करें।"
+      ],
+      "romanized": [
+        "Apna bank account active karne ke liye apna UPI PIN enter karein: {LINK}",
+        "Paise receive karne ke liye apna UPI PIN dalein aur accept karein.",
+        "Transaction verify karne ke liye apna OTP share karein."
+      ]
+    },
+    "suspicious_link": {
+      "native": [
+        "इस लिंक पर क्लिक करें: {LINK}",
+        "वेबसाइट पर जाएँ और सहायता प्राप्त करें: {LINK}",
+        "अपने पुरस्कार के लिए अभी लिंक खोलें: {LINK}"
+      ],
+      "romanized": [
+        "Is link par click karein: {LINK}",
+        "Website open karein aur support lein: {LINK}",
+        "Apne prize ke liye link abhi open karein: {LINK}"
+      ]
+    }
+  },
+  "legit_templates": {
+    "native": [
+      "आपके {BANK} खाते XXXX{OTP} में ₹{AMOUNT} जमा किए गए हैं।",
+      "लॉगिन करने के लिए आपका वन-टाइम पासवर्ड (OTP) {OTP} है। इसे किसी के साथ साझा न करें।",
+      "प्रिय ग्राहक, आपका {BANK} क्रेडिट कार्ड का बिल ₹{AMOUNT} तैयार है। नियत तिथि: {TIME}।"
+    ],
+    "romanized": [
+      "Aapke {BANK} account XXXX{OTP} me Rs {AMOUNT} credit kiye gaye hain.",
+      "Login karne ke liye aapka OTP {OTP} hai. Ise kisi ke sath share na karein.",
+      "Dear Customer, aapka {BANK} credit card bill Rs {AMOUNT} taiyar hai. Due date: {TIME}."
+    ]
+  }
+}

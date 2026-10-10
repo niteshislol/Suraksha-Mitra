@@ -1,0 +1,90 @@
+{
+  "language_name": "Tamil",
+  "romanized_words": ["pannunga", "panunga", "iruku", "irukku", "kudunga", "seiyunga", "panam", "kaasu", "unga", "enoda", "solranga", "aachu", "varum", "panna", "illana", "gpay", "phonepe", "paytm"],
+  "tactic_templates": {
+    "urgency": {
+      "native": [
+        "உடனே செலுத்துங்கள்! {TIME}க்குள் உங்கள் {BANK} மின்சார கட்டணத்தை செலுத்தவில்லை என்றால் மின்சாரம் துண்டிக்கப்படும்.",
+        "கடைசி எச்சரிக்கை! {TIME}க்குள் உங்கள் பான் கார்டை இணைக்கவும், இல்லையெனில் கணக்கு முடக்கப்படும்.",
+        "உடனடி நடவடிக்கை தேவை! இன்னும் {TIME} மட்டுமே உள்ளது."
+      ],
+      "romanized": [
+        "Udanae pay pannunga! {TIME} kulla unga {BANK} electricity bill pay pannalana current cut aayidum.",
+        "Kadaisi warning! {TIME} kulla unga PAN card link pannunga, illana account close aayidum.",
+        "Udanadi action thevai! Innum {TIME} mattum thaan iruku."
+      ]
+    },
+    "authority_impersonation": {
+      "native": [
+        "ரிசர்வ் வங்கி (RBI) புதிய விதிமுறை: உங்கள் கணக்கை சரிபார்க்க {LINK} ஐ கிளிக் செய்யவும்.",
+        "அரசு உதவித்தொகை திட்டத்தின் கீழ் உங்களுக்கு ₹{AMOUNT} வழங்கப்பட்டுள்ளது. பெற இங்கே கிளிக் செய்யவும்: {LINK}",
+        "வருமான வரித்துறை எச்சரிக்கை: உங்கள் ₹{AMOUNT} ரீஃபண்ட் பெற உடனே உள்நுழையவும்."
+      ],
+      "romanized": [
+        "RBI pudhiya rule: Unga account-a secure panna udanae {LINK} click pannunga.",
+        "Govt Scheme valiyaga ungaluku Rs {AMOUNT} loan kedaikudhu. Claim panna link-a open pannunga: {LINK}",
+        "Income Tax Department alert: Unga Rs {AMOUNT} refund-a check panna udanae login pannunga."
+      ]
+    },
+    "false_reward": {
+      "native": [
+        "வாழ்த்துகள்! PhonePe மூலம் உங்களுக்கு ₹{AMOUNT} கேஷ்பேக் கிடைத்துள்ளது. உடனே வங்கிக்கு மாற்றவும்.",
+        "அதிர்ஷ்ட குலுக்கல் வெற்றி! உங்கள் மொபைல் எண் ₹{AMOUNT} வென்றுள்ளது. தொடர்பு கொள்ளவும்: {PHONE}",
+        "அன்பான வாடிக்கையாளரே, உங்களின் ₹{AMOUNT} மதிப்புள்ள ரிவார்டு புள்ளிகள் இன்றுடன் காலாவதியாகிறது. உடனே பெறவும்: {LINK}"
+      ],
+      "romanized": [
+        "Congratulations! Ungaluku PhonePe valiyaga Rs {AMOUNT} cashback kedachiruku. Bank account-ku transfer pannunga.",
+        "Lucky Draw Winner! Unga mobile number Rs {AMOUNT} prize win panniruku. Claim panna contact pannunga: {PHONE}",
+        "Dear customer, unga Rs {AMOUNT} reward points iniku expire aagudhu. Udanae redeem pannunga: {LINK}"
+      ]
+    },
+    "loss_aversion": {
+      "native": [
+        "எச்சரிக்கை! உங்கள் {BANK} கணக்கில் சந்தேகத்திற்கிடமான பரிவர்த்தனை நடந்துள்ளது. கணக்கை மீட்க உடனே கிளிக் செய்க: {LINK}",
+        "பாதுகாப்பு காரணங்களுக்காக உங்கள் ஏடிஎம் கார்டு முடக்கப்பட்டுள்ளது. மீண்டும் தொடங்க இங்கே கிளிக் செய்க: {LINK}",
+        "அபராதத்தைத் தவிர்க்கவும்! உங்கள் கிரெடிட் கார்டு நிலுவைத் தொகையை உடனே சரிபார்க்கவும்."
+      ],
+      "romanized": [
+        "Warning! Unga {BANK} account-la suspicious transaction nadandhaadhala block aaga pogudhu. Udanae click pannunga: {LINK}",
+        "Unga ATM card safety kaaranama block aayiruku. Unblock panna intha link open pannunga: {LINK}",
+        "Penalty avoid pannunga! Unga credit card bill-a udanae verify pannunga."
+      ]
+    },
+    "credential_phishing": {
+      "native": [
+        "வங்கி கணக்கை மீண்டும் தொடங்க உங்கள் யுபிஐ பின்னை (UPI PIN) உள்ளிடவும்: {LINK}",
+        "பணத்தைப் பெற உங்கள் யுபிஐ பின்னை உள்ளிட்டு தொடரவும்.",
+        "பரிவர்த்தனையை உறுதிப்படுத்த உங்களுக்கு வந்த ஓடிபி-யை (OTP) உடனடியாக பகிரவும்."
+      ],
+      "romanized": [
+        "Unga bank account-a active panna unga UPI PIN enter pannunga: {LINK}",
+        "Money receive panna unga UPI PIN enter panni proceed pannunga.",
+        "Transaction block aagama iruka ungaluku vantha OTP share pannunga."
+      ]
+    },
+    "suspicious_link": {
+      "native": [
+        "இந்த லிங்கை கிளிக் செய்யவும்: {LINK}",
+        "உதவி பெற எங்கள் இணையதளத்தை அணுகவும்: {LINK}",
+        "உங்கள் பரிசுக்கான லிங்க் இதோ: {LINK}"
+      ],
+      "romanized": [
+        "Intha link click pannunga: {LINK}",
+        "Help kedaika website paarunga: {LINK}",
+        "Unga prize-kanna link itho: {LINK}"
+      ]
+    }
+  },
+  "legit_templates": {
+    "native": [
+      "உங்கள் {BANK} கணக்கில் ₹{AMOUNT} கிரெடிட் செய்யப்பட்டுள்ளது. தகவல்: XXXX{OTP}.",
+      "உங்கள் கணக்கிற்கான ஓடிபி (OTP) {OTP} ஆகும். இதை யாருடனும் பகிர வேண்டாம்.",
+      "அன்பான வாடிக்கையாளரே, உங்கள் {BANK} கிரெடிட் கார்டு பில் ₹{AMOUNT} தயாராக உள்ளது. செலுத்த கடைசி தேதி: {TIME}."
+    ],
+    "romanized": [
+      "Unga {BANK} account XXXX{OTP}-la Rs {AMOUNT} credit aayiruku.",
+      "Login seiya unga OTP {OTP} aagum. Itha yarukum share panna vadhenga.",
+      "Dear Customer, unga {BANK} credit card bill Rs {AMOUNT} ready-a iruku. Due date: {TIME}."
+    ]
+  }
+}
